@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import RedirectOffServer from '../RedirectOffServer';
 
 // URL to my Elastic Beanstalk AWS server. Code can be found on my GitHub
-const SERVER_URL = "https://api.yohlo.me/"
+const SERVER_URL = "https://api.yohlo.me"
 
 /**
  * 
