@@ -1,7 +1,7 @@
 {
   "main.css": "/github-oauth/static/css/main.ebdd7ee1.chunk.css",
-  "main.js": "/github-oauth/static/js/main.94f60cdc.chunk.js",
-  "main.js.map": "/github-oauth/static/js/main.94f60cdc.chunk.js.map",
+  "main.js": "/github-oauth/static/js/main.1bbd2d5f.chunk.js",
+  "main.js.map": "/github-oauth/static/js/main.1bbd2d5f.chunk.js.map",
   "static/js/1.b0636311.chunk.js": "/github-oauth/static/js/1.b0636311.chunk.js",
   "static/js/1.b0636311.chunk.js.map": "/github-oauth/static/js/1.b0636311.chunk.js.map",
   "runtime~main.js": "/github-oauth/static/js/runtime~main.9b8de051.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/github-oauth/static/media/logo.5d5d9eef.svg",
   "static/css/main.ebdd7ee1.chunk.css.map": "/github-oauth/static/css/main.ebdd7ee1.chunk.css.map",
   "index.html": "/github-oauth/index.html",
-  "precache-manifest.6e0c9f6ff23af8eec2132d95ed197381.js": "/github-oauth/precache-manifest.6e0c9f6ff23af8eec2132d95ed197381.js",
+  "precache-manifest.032f0d2e3c3d3caf50272007f159582c.js": "/github-oauth/precache-manifest.032f0d2e3c3d3caf50272007f159582c.js",
   "service-worker.js": "/github-oauth/service-worker.js"
 }
