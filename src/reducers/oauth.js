@@ -7,6 +7,7 @@ const oauth = (state = {}, action) => {
                 ...state
             }
         case 'GET_USER_RECEIVED':
+            // save only the important bits!
             return {
                 login: action.data.login,
                 avatar_url: action.data.avatar_url,

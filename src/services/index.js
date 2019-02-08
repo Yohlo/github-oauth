@@ -26,7 +26,7 @@ const dataService = store => next => action => {
     const getApi = getApiGenerator(next)
     switch (action.type) {
         case 'GET_USER':
-            console.log(store)
+            // Gets basic user info from Github api using the users access token
             url = `https://api.github.com/user?access_token=${state.oauth.access_token}`
             getApi(url, action.type)
             break

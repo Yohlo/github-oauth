@@ -1,22 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from './logo.svg';
 import './styles.css';
 
-//Main layout of the application, idk 
-export default class Layout extends Component {
-    constructor(props) {
-        super(props)
-        this.props = props;
-    }
+/**
+ * 
+ * Layout is the main layout of the application. Each route follows this
+ * layout.
+ * 
+ * @param Children
+ * 
+ */
+const Layout = ({ children }) => 
+    <div className="App">
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            {children}
+        </header>
+    </div>;
 
-    render() {
-        return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    {this.props.children}
-                </header>
-            </div>
-        );
-    }
-}
+export default Layout

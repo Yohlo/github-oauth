@@ -10,7 +10,6 @@ import './index.css';
 import rootReducer from './reducers';
 
 const store = createStore(rootReducer, {}, applyMiddleware(dataService));
-window.store = store;
 
 render(
   <Provider store={store}>

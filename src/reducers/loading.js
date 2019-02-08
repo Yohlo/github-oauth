@@ -1,3 +1,4 @@
+// This reducer can be used for a loading widget whenever making API calls
 const loading = (state = false, action) => {
 
     switch (action.type) {
